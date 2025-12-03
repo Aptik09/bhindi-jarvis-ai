@@ -1,0 +1,47 @@
+{
+  "user_preferences": {
+    "name": "Aptik",
+    "preferred_greeting": "Hello Aptik",
+    "work_hours": {
+      "start": "09:00",
+      "end": "18:00"
+    },
+    "interests": ["coding", "AI", "automation", "web development"],
+    "goals": [
+      "Build personal AI assistant",
+      "Improve coding skills",
+      "Contribute to open source"
+    ]
+  },
+  "context": {
+    "current_projects": [
+      "Jarvis AI Assistant",
+      "Portfolio Website",
+      "DSA Practice"
+    ],
+    "recent_topics": [
+      "GitHub automation",
+      "AI integration",
+      "Personal productivity"
+    ],
+    "frequently_asked": [
+      "GitHub stats",
+      "Schedule check",
+      "Task management"
+    ]
+  },
+  "learning": {
+    "user_patterns": {
+      "most_active_time": "morning",
+      "preferred_communication_style": "concise",
+      "common_requests": ["schedule", "tasks", "github"]
+    },
+    "improvements": [
+      "Learn user's coding patterns",
+      "Predict task priorities",
+      "Suggest optimal work times"
+    ]
+  },
+  "last_interaction": "2025-12-03T22:00:00Z",
+  "total_interactions": 0
+}
