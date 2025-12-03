@@ -1,0 +1,83 @@
+{
+  "shortcuts": {
+    "gm": {
+      "command": "Good morning Jarvis, what's my schedule for today?",
+      "description": "Morning greeting with schedule check"
+    },
+    "gn": {
+      "command": "Good night Jarvis, set alarm for 7 AM tomorrow",
+      "description": "Night greeting with alarm"
+    },
+    "status": {
+      "command": "Show me my GitHub stats and pending tasks",
+      "description": "Quick status overview"
+    },
+    "sync": {
+      "command": "Sync all my data to GitHub",
+      "description": "Backup data to repository"
+    },
+    "notes": {
+      "command": "Show me my recent notes",
+      "description": "View recent notes"
+    },
+    "tasks": {
+      "command": "What tasks do I have pending?",
+      "description": "View pending tasks"
+    },
+    "commits": {
+      "command": "Show my GitHub commits from this week",
+      "description": "Weekly commit summary"
+    },
+    "weather": {
+      "command": "What's the weather like today?",
+      "description": "Today's weather"
+    },
+    "focus": {
+      "command": "Help me focus on my most important task",
+      "description": "Focus mode activation"
+    },
+    "summary": {
+      "command": "Give me a summary of my day",
+      "description": "Daily summary"
+    }
+  },
+  "aliases": {
+    "schedule": ["calendar", "agenda", "meetings"],
+    "task": ["todo", "to-do", "checklist"],
+    "note": ["remember", "save", "write down"],
+    "github": ["git", "repo", "repository"],
+    "search": ["find", "look for", "google"]
+  },
+  "quick_actions": [
+    {
+      "name": "Daily Standup",
+      "command": "What's on my schedule today? Show pending tasks and recent GitHub activity",
+      "icon": "📅"
+    },
+    {
+      "name": "Code Review",
+      "command": "Show me open pull requests in my repositories",
+      "icon": "💻"
+    },
+    {
+      "name": "Take Note",
+      "command": "I want to take a quick note",
+      "icon": "📝"
+    },
+    {
+      "name": "Set Reminder",
+      "command": "Set a reminder for me",
+      "icon": "⏰"
+    },
+    {
+      "name": "Weather Check",
+      "command": "What's the weather forecast?",
+      "icon": "🌤️"
+    },
+    {
+      "name": "Productivity Stats",
+      "command": "Show my productivity statistics for this week",
+      "icon": "📊"
+    }
+  ]
+}
