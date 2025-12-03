@@ -1,0 +1,73 @@
+{
+  "enabled_agents": [
+    {
+      "id": "github",
+      "name": "GitHub Agent",
+      "description": "Manage GitHub repositories, issues, PRs, and commits",
+      "enabled": true,
+      "auto_activate": true
+    },
+    {
+      "id": "bhindi-scheduler-v2",
+      "name": "Scheduler",
+      "description": "Schedule tasks, reminders, and automated actions",
+      "enabled": true,
+      "auto_activate": true
+    },
+    {
+      "id": "bhindi-notes-v2",
+      "name": "Notes Manager",
+      "description": "Create, search, and organize personal notes",
+      "enabled": true,
+      "auto_activate": true
+    },
+    {
+      "id": "google-calendar",
+      "name": "Google Calendar",
+      "description": "Manage calendar events and schedules",
+      "enabled": false,
+      "auto_activate": false
+    },
+    {
+      "id": "google-gmail",
+      "name": "Gmail",
+      "description": "Send and manage emails",
+      "enabled": false,
+      "auto_activate": false
+    },
+    {
+      "id": "perplexity",
+      "name": "Web Search",
+      "description": "Search the web for information",
+      "enabled": true,
+      "auto_activate": false
+    },
+    {
+      "id": "open-weather",
+      "name": "Weather",
+      "description": "Get weather forecasts and conditions",
+      "enabled": true,
+      "auto_activate": false
+    },
+    {
+      "id": "time",
+      "name": "Time Utilities",
+      "description": "Time zone conversion and date calculations",
+      "enabled": true,
+      "auto_activate": true
+    }
+  ],
+  "agent_preferences": {
+    "auto_add_agents": true,
+    "max_concurrent_agents": 10,
+    "remove_inactive_agents": true,
+    "agent_timeout": 30000
+  },
+  "custom_commands": {
+    "schedule": "Use bhindi-scheduler-v2 to manage tasks",
+    "note": "Use bhindi-notes-v2 to save information",
+    "github": "Use github agent for repository operations",
+    "search": "Use perplexity for web searches",
+    "weather": "Use open-weather for weather information"
+  }
+}
